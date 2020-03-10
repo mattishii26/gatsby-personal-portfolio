@@ -1,0 +1,48 @@
+$lightGreen: #dff6f0;
+$lightBlue: #46b3e6;
+$oceanBlue: #4d80e4;
+$darkBlue: #2e279d;
+$lighterGrey: #dadada;
+$lightGrey: #c0c0c0;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.globalLayout{
+    background-color: $lighterGrey;
+}
+.highlightDarkBlue{
+    color:$darkBlue;
+}
+.highlightOceanBlue{
+    color:$oceanBlue;
+}
+
+.introduction-body{
+    min-height: 95%;
+    min-height: 95vh;
+    min-width: 100%;
+    min-width: 100vh;
+    position: relative;
+}
+.introduction-body-panel{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+}
+.intro-next{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+    a:hover{
+        color:$lightBlue;
+        text-decoration: none;
+    }
+    a{
+        color:$oceanBlue;
+    }
+}

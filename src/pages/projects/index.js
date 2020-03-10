@@ -1,9 +1,13 @@
 import React from 'react';
 
-const index = () => {
-    return (<div>
-        test
-    </div>)
+import Layout from '../../components/layout';
+
+const ProjectIndex = () => {
+    return (
+        <Layout>
+            test
+        </Layout>
+    )
 }
 
-export default index;
+export default ProjectIndex;
